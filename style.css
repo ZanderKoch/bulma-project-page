@@ -3,13 +3,19 @@ html, body{
     height: 100%;
 }
 
-body{
-    background-image: url("bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 div.transparent80{
     opacity: 0.8;
+}
+
+.is-fullheight-100vh{
+    height:100vh;
+  }
+
+/*I don't know if there's a better way to customise bulma 
+  so i'm doing it this way*/
+div.main{
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
