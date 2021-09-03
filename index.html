@@ -7,6 +7,7 @@
     <title>Project Page</title>
     <link rel="stylesheet" href="bulma/css/bulma.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 </head>
 <body>
     <section class="hero">
@@ -14,8 +15,8 @@
         <!-- Hero head: will stick at the top -->
         <div class="hero-head has-background-white">
             <nav class="navbar">
-                <div class="container">
-                    <a class="navbar-item is-active" href="index.html">Web Development</a>
+                <div class="container is-flex-wrap-nowrap">
+                    <a class="navbar-item is-active has-text-weight-bold" href="index.html">Web Development</a>
                     <a class="navbar-item" href="about.html">About Me</a>
                     <a class="navbar-item" href="projects.html">Projects</a>
                     <a class="navbar-item" href="template.html">Template</a>
@@ -29,35 +30,21 @@
                     <!-- creating three columns, fist and last transparent -->
                     <div class="columns">
                         
-                        <div class="column">
+                        <div class="column is-hidden-mobile">
                             <!-- this has intentionally been left blank -->
                         </div>
 
+                        <!-- this column contains the main content -->
                         <div class="column is-three-quarters has-background-white transparent80 pt-6">
                             <h1 class="title">
                                 Web Development Project Page
                             </h1>
                             <p>
                                 skibidi bap-bop.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                
                             </p>
                         </div>
 
-                        <div class="column">
+                        <div class="column is-hidden-mobile" >
                             <!-- this has intentionally been left blank -->
                         </div>
 
@@ -66,7 +53,22 @@
 
         </div>
 
-
+        <!-- hero footer, will stick to the bottom -->
+        <div class="hero-foot has-background-light">
+            <div class="container">
+                page made by Zander Koch. 
+                
+                background taken from 
+                <a href="https://www.justnopoint.com/zweifuss/" target="_blank">
+                    https://www.justnopoint.com/zweifuss/
+                    <span class="icon">
+                        <i class="fas fa-external"></i>
+                        <!-- can't get this to work -->
+                    </span>
+                </a>
+                
+            </div>
+        </div>
     </section>
 </body>
 </html>
