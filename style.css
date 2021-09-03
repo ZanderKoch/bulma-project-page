@@ -4,5 +4,12 @@ html, body{
 }
 
 body{
-background-image: "bg.png";
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.transparent80{
+    opacity: 80;
 }
