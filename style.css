@@ -21,3 +21,11 @@ div.main{
     width: 100%;
     z-index: -1;
 }
+
+p{
+    opacity: 1.0;
+}
+
+iframe{
+    opacity: 1.0;
+}
