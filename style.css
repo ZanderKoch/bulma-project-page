@@ -26,6 +26,10 @@ section.hero{
     z-index: 1;
 }
 
+hero-foot{
+    opacity: 1;
+}
+
 p{
     opacity: 1.0;
     margin-bottom: 1em;
